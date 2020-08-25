@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+<!--    <Button-->
+<!--        android:id="@+id/Guide"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="70dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_marginEnd="66dp"-->
+<!--        android:layout_marginBottom="533dp"-->
+<!--        android:background="@drawable/custom_label_white"-->
+<!--        android:drawableLeft="@drawable/ic_send_black_24dp"-->
+<!--        android:text="Guide to drive with uber"-->
+<!--        android:textColor="#fff" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/Signup"-->
+<!--        android:layout_width="276dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="66dp"-->
+<!--        android:layout_marginTop="386dp"-->
+<!--        android:layout_marginEnd="69dp"-->
+<!--        android:layout_marginBottom="308dp"-->
+<!--        android:background="@drawable/custom_label_white"-->
+<!--        android:drawableLeft="@drawable/ic_email_black_24dp"-->
+<!--        android:text="Signing Up"-->
+<!--        android:textColor="#fff" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/More"-->
+<!--        android:layout_width="276dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="67dp"-->
+<!--        android:layout_marginTop="277dp"-->
+<!--        android:layout_marginEnd="68dp"-->
+<!--        android:layout_marginBottom="406dp"-->
+<!--        android:background="@drawable/custom_label_white"-->
+<!--        android:drawableLeft="@drawable/ic_help_black_24dp"-->
+<!--        android:text="More"-->
+<!--        android:textColor="#fff" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/issue"-->
+<!--        android:layout_width="276dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="65dp"-->
+<!--        android:layout_marginTop="506dp"-->
+<!--        android:layout_marginEnd="70dp"-->
+<!--        android:layout_marginBottom="177dp"-->
+<!--        android:background="@drawable/custom_label_white"-->
+<!--        android:drawableLeft="@drawable/ic_sentiment_dissatisfied_black_24dp"-->
+<!--        android:text="Trip Issue"-->
+<!--        android:textColor="#fff" />-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOW TO USE UBER RIDE"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Fast Login and Register. Register with your email and password only."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Get Ride which is near around you."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Manage your account."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Keep Records of the driver position."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Get live location update of the customers and drivers."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Search the location where you wants to go."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. An app that supports darkmode"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8. Google voice assistant for clarification."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9. Can contact the customer care in need."
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
